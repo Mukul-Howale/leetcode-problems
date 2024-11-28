@@ -1,4 +1,4 @@
-package org.example.array.three_sum;
+package org.example.array.medium.three_sum;
 
 import org.example.ArrayInterface;
 import org.example.ObjectStore;

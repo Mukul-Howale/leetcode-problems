@@ -21,7 +21,7 @@ public class Execute {
         System.out.println("Select a problem");
         Scanner sc = new Scanner(System.in);
         int option = sc.nextInt();
-        
+
         // Get all the classes implementing ArrayInterface
         // 1. Add a file eg. 'org.example.ArrayInterface' in resource/META-INF/services
         // 2. Add the classes names implementing the interface in the file

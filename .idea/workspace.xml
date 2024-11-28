@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="190f87f5-2722-4d3b-9419-68d4aef63b68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ObjectStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.example.ArrayInterface" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/array/easy/merge_sorted_array/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/array/easy/merge_sorted_array/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArrayInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Execute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/ArrayInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/three_sum/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/array/three_sum/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/two_sum/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/array/two_sum/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/three_sum/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/array/medium/three_sum/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/three_sum/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/array/medium/three_sum/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/two_sum/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/array/easy/two_sum/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/two_sum/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/array/easy/two_sum/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.example.ArrayInterface" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.example.ArrayInterface" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -106,7 +107,7 @@
       <updated>1732780262917</updated>
       <workItem from="1732780265047" duration="192000" />
       <workItem from="1732780573908" duration="861000" />
-      <workItem from="1732782242006" duration="15442000" />
+      <workItem from="1732782242006" duration="17865000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package org.example.array.two_sum;
+package org.example.array.easy.two_sum;
 
 import org.example.ArrayInterface;
 import org.example.ObjectStore;
@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class TwoSum implements ArrayInterface {
 
+    @Override
     public void solve() {
         Scanner sc = new Scanner(System.in);
 
@@ -29,6 +30,7 @@ public class TwoSum implements ArrayInterface {
         sc.close();
     }
 
+    @Override
     public TwoSum getObject(){
         return new TwoSum();
     }

@@ -13,6 +13,7 @@ public interface ArrayInterface {
         System.out.println("Note : To know about the question, please refer the README file \n");
     }
 
+    // Convert string into int array
     default int[] getNums(String numString){
         String[] stringNums = numString.split(" ");
         return Arrays.stream(stringNums).mapToInt(Integer::parseInt).toArray();

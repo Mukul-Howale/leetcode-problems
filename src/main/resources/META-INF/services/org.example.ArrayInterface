@@ -1,2 +1,3 @@
-org.example.array.two_sum.TwoSum
-org.example.array.three_sum.ThreeSum
+org.example.array.easy.two_sum.TwoSum
+org.example.array.medium.three_sum.ThreeSum
+org.example.array.easy.merge_sorted_array.MergeSortedArray
