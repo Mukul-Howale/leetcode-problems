@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="190f87f5-2722-4d3b-9419-68d4aef63b68" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/easy/merge_sorted_array/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/array/easy/merge_sorted_array/MergeSortedArray.java" afterDir="false" />
-    </list>
+    <list default="true" id="190f87f5-2722-4d3b-9419-68d4aef63b68" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +99,7 @@
       <updated>1732780262917</updated>
       <workItem from="1732780265047" duration="192000" />
       <workItem from="1732780573908" duration="861000" />
-      <workItem from="1732782242006" duration="19313000" />
+      <workItem from="1732782242006" duration="19588000" />
     </task>
     <servers />
   </component>
