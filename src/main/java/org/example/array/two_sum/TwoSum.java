@@ -1,10 +1,10 @@
 package org.example.array.two_sum;
 
-import org.example.array.ArrayInterface;
+import org.example.ArrayInterface;
+import org.example.ObjectStore;
 
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Optional;
 import java.util.Scanner;
 
 public class TwoSum implements ArrayInterface {
@@ -12,7 +12,7 @@ public class TwoSum implements ArrayInterface {
     public void solve() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Two Sum");
+        initialMessage();
         System.out.println("Please add space seperated list of numbers to be added to nums[]");
 
         String numString = sc.nextLine();
@@ -23,6 +23,8 @@ public class TwoSum implements ArrayInterface {
 
         int[] targetArray = twoSum(nums, target);
         System.out.println(Arrays.toString(targetArray));
+
+        exitOrBack(new ObjectStore().getEx());
 
         sc.close();
     }

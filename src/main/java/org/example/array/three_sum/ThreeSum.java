@@ -1,7 +1,7 @@
 package org.example.array.three_sum;
 
-import org.example.array.ArrayInterface;
-import org.example.array.two_sum.TwoSum;
+import org.example.ArrayInterface;
+import org.example.ObjectStore;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,7 +13,7 @@ public class ThreeSum implements ArrayInterface {
     public void solve(){
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Three Sum");
+        initialMessage();
         System.out.println("Please add space seperated list of numbers to be added to nums[]");
 
         String numString = sc.nextLine();
@@ -21,6 +21,8 @@ public class ThreeSum implements ArrayInterface {
 
         List<List<Integer>> targetList = threeSum(nums);
         System.out.println(targetList);
+
+        exitOrBack(new ObjectStore().getEx());
 
         sc.close();
     }
