@@ -1,7 +1,6 @@
 package org.example.array.easy.merge_sorted_array;
 
 import org.example.ArrayInterface;
-import org.example.Execute;
 import org.example.ObjectStore;
 
 import java.util.Arrays;
