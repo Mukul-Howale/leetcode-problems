@@ -22,9 +22,6 @@ public class Execute {
         Scanner sc = new Scanner(System.in);
         int option = sc.nextInt();
 
-        // Get all the classes implementing ArrayInterface
-        // 1. Add a file eg. 'org.example.ArrayInterface' in resource/META-INF/services
-        // 2. Add the classes names implementing the interface in the file
         if(problemList.containsKey(option)){
             ArrayInterface arrayInterface = problemList.get(option);
             arrayInterface.getObject().solve();
@@ -33,6 +30,9 @@ public class Execute {
         sc.close();
     }
 
+    // Get all the classes implementing ArrayInterface
+    // 1. Add a file eg. 'org.example.ArrayInterface' in resource/META-INF/services
+    // 2. Add the classes names implementing the interface in the file
     private HashMap<Integer, ArrayInterface> getProblemList(){
         HashMap<Integer, ArrayInterface> problemList = new HashMap<>();
         ServiceLoader<ArrayInterface> loader = ServiceLoader.load(ArrayInterface.class);
