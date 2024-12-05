@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="190f87f5-2722-4d3b-9419-68d4aef63b68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/array/hard/trapping_rain_water/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/array/hard/trapping_rain_water/TrappingRainWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.example.ArrayInterface" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.example.ArrayInterface" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,8 @@
       <workItem from="1732780573908" duration="861000" />
       <workItem from="1732782242006" duration="19588000" />
       <workItem from="1733161358599" duration="1747000" />
-      <workItem from="1733324772807" duration="1196000" />
+      <workItem from="1733324772807" duration="3213000" />
+      <workItem from="1733384577171" duration="635000" />
     </task>
     <servers />
   </component>
