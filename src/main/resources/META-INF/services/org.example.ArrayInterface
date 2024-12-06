@@ -3,3 +3,4 @@ org.example.array.medium.three_sum.ThreeSum
 org.example.array.easy.merge_sorted_array.MergeSortedArray
 org.example.array.medium.search_in_rotated_sorted_array.SearchInRotatedSortedArray
 org.example.array.hard.trapping_rain_water.TrappingRainWater
+org.example.array.easy.closest_number_to_zero.ClosestNumberToZero

@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="190f87f5-2722-4d3b-9419-68d4aef63b68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/array/easy/closest_number_to_zero/ClosestNumberToZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/array/easy/closest_number_to_zero/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.example.ArrayInterface" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.example.ArrayInterface" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +108,8 @@
       <workItem from="1733161358599" duration="1747000" />
       <workItem from="1733324772807" duration="3213000" />
       <workItem from="1733384577171" duration="635000" />
+      <workItem from="1733470521817" duration="1805000" />
+      <workItem from="1733480064687" duration="332000" />
     </task>
     <servers />
   </component>
