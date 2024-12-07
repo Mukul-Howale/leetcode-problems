@@ -1,11 +1,13 @@
 package org.example;
 
+import org.example.array.ArrayInterface;
+
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.ServiceLoader;
 
 public class Execute {
-    private final HashMap<Integer, ArrayInterface> problemList;
+    private final HashMap<Integer, CommonInterface> problemList;
 
     Execute(){
         this.problemList = getProblemList();
@@ -23,21 +25,21 @@ public class Execute {
         int option = sc.nextInt();
 
         if(problemList.containsKey(option)){
-            ArrayInterface arrayInterface = problemList.get(option);
-            arrayInterface.getObject().solve();
+            CommonInterface commonInterface = problemList.get(option);
+            commonInterface.getObject().solve();
         }
 
         sc.close();
     }
 
-    // Get all the classes implementing ArrayInterface
-    // 1. Add a file eg. 'org.example.ArrayInterface' in resource/META-INF/services
+    // Get all the classes implementing CommonInterface
+    // 1. Add a file eg. 'org.example.CommonInterface' in resource/META-INF/services
     // 2. Add the classes names implementing the interface in the file
-    private HashMap<Integer, ArrayInterface> getProblemList(){
-        HashMap<Integer, ArrayInterface> problemList = new HashMap<>();
-        ServiceLoader<ArrayInterface> loader = ServiceLoader.load(ArrayInterface.class);
+    private HashMap<Integer, CommonInterface> getProblemList(){
+        HashMap<Integer, CommonInterface> problemList = new HashMap<>();
+        ServiceLoader<CommonInterface> loader = ServiceLoader.load(CommonInterface.class);
         int i = 0;
-        for (ArrayInterface implClass : loader) {
+        for (CommonInterface implClass : loader) {
             problemList.put(++i, implClass);
         }
         return problemList;

@@ -1,11 +1,12 @@
 package org.example.array.hard.trapping_rain_water;
 
-import org.example.ArrayInterface;
+import org.example.CommonInterface;
+import org.example.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.Scanner;
 
-public class TrappingRainWater implements ArrayInterface {
+public class TrappingRainWater implements ArrayInterface, CommonInterface {
 
     public void solve(){
         Scanner sc = new Scanner(System.in);

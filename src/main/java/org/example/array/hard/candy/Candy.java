@@ -1,11 +1,12 @@
 package org.example.array.hard.candy;
 
-import org.example.ArrayInterface;
+import org.example.CommonInterface;
+import org.example.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.Scanner;
 
-public class Candy implements ArrayInterface {
+public class Candy implements ArrayInterface, CommonInterface {
 
     public void solve(){
         Scanner sc = new Scanner(System.in);

@@ -1,13 +1,14 @@
 package org.example.array.easy.two_sum;
 
-import org.example.ArrayInterface;
+import org.example.CommonInterface;
+import org.example.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class TwoSum implements ArrayInterface {
+public class TwoSum implements ArrayInterface, CommonInterface {
 
     @Override
     public void solve() {

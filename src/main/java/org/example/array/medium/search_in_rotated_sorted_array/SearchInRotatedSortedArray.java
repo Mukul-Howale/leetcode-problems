@@ -1,11 +1,12 @@
 package org.example.array.medium.search_in_rotated_sorted_array;
 
-import org.example.ArrayInterface;
+import org.example.CommonInterface;
+import org.example.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.Scanner;
 
-public class SearchInRotatedSortedArray implements ArrayInterface {
+public class SearchInRotatedSortedArray implements ArrayInterface, CommonInterface {
 
     public void solve(){
         Scanner sc = new Scanner(System.in);

@@ -1,6 +1,7 @@
 package org.example.array.medium.three_sum;
 
-import org.example.ArrayInterface;
+import org.example.CommonInterface;
+import org.example.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.ArrayList;
@@ -8,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class ThreeSum implements ArrayInterface {
+public class ThreeSum implements ArrayInterface, CommonInterface {
 
     public void solve(){
         Scanner sc = new Scanner(System.in);

@@ -1,22 +1,18 @@
 package org.example;
 
-import java.util.Arrays;
+import org.example.array.ArrayInterface;
+
 import java.util.Scanner;
 
-public interface ArrayInterface {
+public interface CommonInterface {
+
     void solve();
 
-    ArrayInterface getObject();
+    CommonInterface getObject();
 
     default void initialMessage(){
         System.out.println("\n" + getObject().getClass().getSimpleName());
         System.out.println("Note : To know about the question, please refer the README file \n");
-    }
-
-    // Convert string into int array
-    default int[] getNums(String numString){
-        String[] stringNums = numString.split(" ");
-        return Arrays.stream(stringNums).mapToInt(Integer::parseInt).toArray();
     }
 
     default void exitOrBack(Execute ex){
@@ -24,11 +20,8 @@ public interface ArrayInterface {
         System.out.println("2. Exit");
         Scanner sc = new Scanner(System.in);
         int option = sc.nextInt();
-        if (option == 1) {
-            ex.start();
-        } else {
-            System.out.println("Ok, Bye!");
-        }
+        if (option == 1) ex.start();
+        else System.out.println("Ok, Bye!");
         sc.close();
     }
 }

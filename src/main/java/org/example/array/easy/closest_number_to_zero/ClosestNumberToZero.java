@@ -1,11 +1,12 @@
 package org.example.array.easy.closest_number_to_zero;
 
-import org.example.ArrayInterface;
+import org.example.CommonInterface;
+import org.example.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.Scanner;
 
-public class ClosestNumberToZero implements ArrayInterface {
+public class ClosestNumberToZero implements ArrayInterface, CommonInterface {
 
     public void solve(){
         Scanner sc = new Scanner(System.in);

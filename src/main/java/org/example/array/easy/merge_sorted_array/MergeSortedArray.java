@@ -1,12 +1,13 @@
 package org.example.array.easy.merge_sorted_array;
 
-import org.example.ArrayInterface;
+import org.example.CommonInterface;
+import org.example.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MergeSortedArray implements ArrayInterface {
+public class MergeSortedArray implements ArrayInterface, CommonInterface {
 
     @Override
     public void solve() {
