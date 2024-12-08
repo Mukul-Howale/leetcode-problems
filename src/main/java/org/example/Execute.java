@@ -1,7 +1,5 @@
 package org.example;
 
-import org.example.array.ArrayInterface;
-
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.ServiceLoader;
@@ -13,23 +11,37 @@ public class Execute {
         this.problemList = getProblemList();
     }
 
-    public void start() {
-        System.out.println("Here are the list of problems : ");
+//    public void start() {
+//        System.out.println("Here are the list of problems : ");
+//
+//        problemList.forEach((key, value) -> {
+//            System.out.println(key + ". " + value.getClass().getSimpleName());
+//        });
+//
+//        System.out.println("Select a problem");
+//        Scanner sc = new Scanner(System.in);
+//        int option = sc.nextInt();
+//
+//        if(problemList.containsKey(option)){
+//            CommonInterface commonInterface = problemList.get(option);
+//            commonInterface.solve();
+//        }
+//
+//        sc.close();
+//    }
+
+    public void start(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Select one : ");
 
         problemList.forEach((key, value) -> {
-            System.out.println(key + ". " + value.getClass().getSimpleName());
+            System.out.println(value.getClass().getPackageName());
         });
 
-        System.out.println("Select a problem");
-        Scanner sc = new Scanner(System.in);
-        int option = sc.nextInt();
-
-        if(problemList.containsKey(option)){
-            CommonInterface commonInterface = problemList.get(option);
-            commonInterface.getObject().solve();
-        }
-
-        sc.close();
+//        if(problemList.containsKey(option)){
+//            CommonInterface commonInterface = problemList.get(option);
+//            commonInterface.solve();
+//        }
     }
 
     // Get all the classes implementing CommonInterface

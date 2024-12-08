@@ -11,7 +11,7 @@ public class MergeStringsAlternately implements StringInterface, CommonInterface
     public void solve(){
         Scanner sc = new Scanner(System.in);
 
-        initialMessage();
+        initialMessage(this);
         System.out.println("Please enter two space seperated words");
 
         String str = sc.nextLine();
@@ -22,10 +22,6 @@ public class MergeStringsAlternately implements StringInterface, CommonInterface
         exitOrBack(new ObjectStore().getEx());
 
         sc.close();
-    }
-
-    public MergeStringsAlternately getObject(){
-        return new MergeStringsAlternately();
     }
 
     private String mergeStringsAlternately(String word1, String word2){

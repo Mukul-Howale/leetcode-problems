@@ -14,7 +14,7 @@ public class TwoSum implements ArrayInterface, CommonInterface {
     public void solve() {
         Scanner sc = new Scanner(System.in);
 
-        initialMessage();
+        initialMessage(this);
         System.out.println("Please add space seperated list of numbers to be added to nums[]");
 
         String numString = sc.nextLine();
@@ -29,11 +29,6 @@ public class TwoSum implements ArrayInterface, CommonInterface {
         exitOrBack(new ObjectStore().getEx());
 
         sc.close();
-    }
-
-    @Override
-    public TwoSum getObject(){
-        return new TwoSum();
     }
 
     private int[] twoSum(int[] nums, int target) {

@@ -1,9 +1,6 @@
 package org.example.array;
 
-import org.example.Execute;
-
 import java.util.Arrays;
-import java.util.Scanner;
 
 public interface ArrayInterface {
 

@@ -14,7 +14,7 @@ public class ThreeSum implements ArrayInterface, CommonInterface {
     public void solve(){
         Scanner sc = new Scanner(System.in);
 
-        initialMessage();
+        initialMessage(this);
         System.out.println("Please add space seperated list of numbers to be added to nums[]");
 
         String numString = sc.nextLine();
@@ -26,10 +26,6 @@ public class ThreeSum implements ArrayInterface, CommonInterface {
         exitOrBack(new ObjectStore().getEx());
 
         sc.close();
-    }
-
-    public ThreeSum getObject(){
-        return new ThreeSum();
     }
 
     private List<List<Integer>> threeSum(int[] nums) {

@@ -11,7 +11,7 @@ public class SearchInRotatedSortedArray implements ArrayInterface, CommonInterfa
     public void solve(){
         Scanner sc = new Scanner(System.in);
 
-        initialMessage();
+        initialMessage(this);
         System.out.println("Please add space seperated list of numbers");
 
         String numString = sc.nextLine();
@@ -25,10 +25,6 @@ public class SearchInRotatedSortedArray implements ArrayInterface, CommonInterfa
         exitOrBack(new ObjectStore().getEx());
 
         sc.close();
-    }
-
-    public SearchInRotatedSortedArray getObject(){
-        return new SearchInRotatedSortedArray();
     }
 
     private int searchInRotatedSortedArray(int[] nums, int target){

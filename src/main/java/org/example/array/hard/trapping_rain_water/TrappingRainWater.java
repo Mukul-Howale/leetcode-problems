@@ -11,7 +11,7 @@ public class TrappingRainWater implements ArrayInterface, CommonInterface {
     public void solve(){
         Scanner sc = new Scanner(System.in);
 
-        initialMessage();
+        initialMessage(this);
         System.out.println("Please add space seperated list of numbers");
 
         String numString = sc.nextLine();
@@ -22,10 +22,6 @@ public class TrappingRainWater implements ArrayInterface, CommonInterface {
         exitOrBack(new ObjectStore().getEx());
 
         sc.close();
-    }
-
-    public TrappingRainWater getObject(){
-        return new TrappingRainWater();
     }
 
     private int trappingRainWater(int[] nums){

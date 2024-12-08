@@ -10,7 +10,8 @@ public class Candy implements ArrayInterface, CommonInterface {
 
     public void solve(){
         Scanner sc = new Scanner(System.in);
-        initialMessage();
+
+        initialMessage(this);
         System.out.println("Please add space seperated list of numbers");
 
         String numString = sc.nextLine();
@@ -21,10 +22,6 @@ public class Candy implements ArrayInterface, CommonInterface {
         exitOrBack(new ObjectStore().getEx());
 
         sc.close();
-    }
-
-    public Candy getObject(){
-        return new Candy();
     }
 
     private int candy(int[] ratings) {

@@ -13,7 +13,7 @@ public class MergeSortedArray implements ArrayInterface, CommonInterface {
     public void solve() {
         Scanner sc = new Scanner(System.in);
 
-        initialMessage();
+        initialMessage(this);
 
         System.out.println("Please add space seperated list of numbers to be added to nums1[]");
         String numString1 = sc.nextLine();
@@ -37,10 +37,6 @@ public class MergeSortedArray implements ArrayInterface, CommonInterface {
         exitOrBack(new ObjectStore().getEx());
 
         sc.close();
-    }
-
-    public MergeSortedArray getObject() {
-        return new MergeSortedArray();
     }
 
     private int[] merge(int[] nums1, int m, int[] nums2, int n){

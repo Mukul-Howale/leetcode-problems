@@ -1,17 +1,13 @@
 package org.example;
 
-import org.example.array.ArrayInterface;
-
 import java.util.Scanner;
 
 public interface CommonInterface {
 
     void solve();
 
-    CommonInterface getObject();
-
-    default void initialMessage(){
-        System.out.println("\n" + getObject().getClass().getSimpleName());
+    default void initialMessage(CommonInterface commonInterface){
+        System.out.println("\n" + commonInterface.getClass().getSimpleName());
         System.out.println("Note : To know about the question, please refer the README file \n");
     }
 
