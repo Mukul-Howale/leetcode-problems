@@ -1,7 +1,8 @@
-package org.example.constants;
+package org.example.enums;
 
 public enum DifficultyConstants {
     EASY,
     MEDIUM,
-    HARD
+    HARD,
+    ALL
 }

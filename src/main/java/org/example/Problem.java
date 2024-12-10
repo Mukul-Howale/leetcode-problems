@@ -1,17 +1,20 @@
 package org.example;
 
+import org.example.enums.DifficultyConstants;
+import org.example.enums.TopicConstants;
+
 public class Problem {
 
     private static Integer id = 0;
     private CommonInterface problemName;
-    private String topic;
-    private String difficulty;
+    private TopicConstants topic;
+    private DifficultyConstants difficulty;
 
     public Problem(CommonInterface problemName, String topic, String difficulty) {
         id+=1;
         this.problemName = problemName;
-        this.topic = topic;
-        this.difficulty = difficulty;
+        this.topic = TopicConstants.valueOf(topic);
+        this.difficulty = DifficultyConstants.valueOf(difficulty);
     }
 
     public Integer getId(){
@@ -26,20 +29,20 @@ public class Problem {
         this.problemName = problemName;
     }
 
-    public String getTopic() {
+    public TopicConstants getTopic() {
         return topic;
     }
 
     public void setTopic(String topic) {
-        this.topic = topic;
+        this.topic = TopicConstants.valueOf(topic);
     }
 
-    public String getDifficulty() {
+    public DifficultyConstants getDifficulty() {
         return difficulty;
     }
 
     public void setDifficulty(String difficulty) {
-        this.difficulty = difficulty;
+        this.difficulty = DifficultyConstants.valueOf(difficulty);
     }
 
     @Override

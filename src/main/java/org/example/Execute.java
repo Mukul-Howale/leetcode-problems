@@ -1,12 +1,17 @@
 package org.example;
 
+import org.example.constants.Constants;
+import org.example.enums.DifficultyConstants;
+import org.example.enums.TopicConstants;
+
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Execute {
-    private final Map<Integer, Problem> problemList;
+    private ProblemStore problemStore;
 
     Execute(){
-        this.problemList = getProblemList();
+        this.problemStore = new ProblemStore();
     }
 
 //    public void start() {
@@ -30,11 +35,28 @@ public class Execute {
 
     public void start(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Select one : ");
 
-        problemList.forEach((key, value) -> {
-            System.out.println(key + " " + value.toString());
+        System.out.println("Select topic : ");
+        Map<Integer, TopicConstants> topics = new HashMap<>();
+        AtomicInteger topicIdx = new AtomicInteger(Constants.getInitialIdx());
+        Arrays.asList(TopicConstants.values()).forEach(topic -> {
+            topics.put(topicIdx.incrementAndGet(), topic);
+            System.out.println(topicIdx.get() + ". " + topic.toString());
         });
+        TopicConstants topicConstants = topics.get(sc.nextInt());
+
+        System.out.println("\nSelect difficulty : ");
+        Map<Integer, DifficultyConstants> difficulties = new HashMap<>();
+        AtomicInteger difficultyIdx = new AtomicInteger(Constants.getInitialIdx());
+        Arrays.asList(DifficultyConstants.values()).forEach(difficulty -> {
+            difficulties.put(difficultyIdx.incrementAndGet(), difficulty);
+            System.out.println(difficultyIdx.get() + ". " + difficulty.toString());
+        });
+        DifficultyConstants difficultyConstants = difficulties.get(sc.nextInt());
+
+        Map<Integer, Problem> ProblemList = problemStore.getProblemList(topicConstants, difficultyConstants);
+
+
 
 //        if(problemList.containsKey(option)){
 //            CommonInterface commonInterface = problemList.get(option);
