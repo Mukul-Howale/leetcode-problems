@@ -17,6 +17,10 @@ public class ProblemStore {
         this.makeProblemList();
     }
 
+    /**
+     * TO-DO
+        Trying to remove if-else statements
+     */
     public Map<Integer, Problem> getProblemList(TopicEnum topicEnum, DifficultyEnum difficultyEnum){
         Map<Integer, Problem> filteredProblemList = new HashMap<>();
         if(topicEnum.equals(TopicEnum.ALL) && difficultyEnum.equals(DifficultyEnum.ALL)) return problemList;
@@ -41,9 +45,11 @@ public class ProblemStore {
         return filteredProblemList;
     }
 
-    // Get all the classes implementing CommonInterface
-    // 1. Add a file eg. 'org.example.CommonInterface' in resource/META-INF/services
-    // 2. Add the classes names implementing the interface in the file
+    /**
+        Get all the classes implementing CommonInterface
+        1. Add a file e.g. 'org.example.CommonInterface' in resource/META-INF/services
+        2. Add the classes names implementing the interface in the file
+     */
     private void makeProblemList(){
         ServiceLoader<CommonInterface> loader = ServiceLoader.load(CommonInterface.class);
         int i = Constants.getInitialIdx();

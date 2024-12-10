@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="190f87f5-2722-4d3b-9419-68d4aef63b68" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Execute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/Problem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProblemStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/ProblemStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/ArrayInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/ArrayInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/easy/closest_number_to_zero/ClosestNumberToZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/easy/closest_number_to_zero/ClosestNumberToZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/easy/closest_number_to_zero/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/easy/closest_number_to_zero/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/easy/merge_sorted_array/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/easy/merge_sorted_array/MergeSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/easy/merge_sorted_array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/easy/merge_sorted_array/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/easy/two_sum/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/easy/two_sum/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/easy/two_sum/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/easy/two_sum/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/hard/candy/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/hard/candy/Candy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/hard/candy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/hard/candy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/hard/trapping_rain_water/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/hard/trapping_rain_water/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/hard/trapping_rain_water/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/hard/trapping_rain_water/TrappingRainWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/medium/search_in_rotated_sorted_array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/medium/search_in_rotated_sorted_array/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/medium/search_in_rotated_sorted_array/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/medium/search_in_rotated_sorted_array/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/medium/three_sum/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/medium/three_sum/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/medium/three_sum/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/array/medium/three_sum/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/constants/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/DifficultyConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/DifficultyEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/TopicConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/TopicEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/string/StringInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/string/StringInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/string/easy/merge_strings_alternately/MergeStringsAlternately.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/string/easy/merge_strings_alternately/MergeStringsAlternately.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/string/easy/merge_strings_alternately/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/string/easy/merge_strings_alternately/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.example.CommonInterface" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.example.CommonInterface" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/problem/ProblemStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/ProblemStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +113,7 @@
       <workItem from="1733680969621" duration="2880000" />
       <workItem from="1733721663380" duration="4558000" />
       <workItem from="1733738754474" duration="7566000" />
-      <workItem from="1733833355003" duration="11894000" />
+      <workItem from="1733833355003" duration="12576000" />
     </task>
     <servers />
   </component>

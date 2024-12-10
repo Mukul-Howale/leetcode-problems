@@ -16,6 +16,13 @@ public class Execute {
         this.problemStore = new ProblemStore();
     }
 
+    /**
+     * TO-DO
+         Converting enum into classes to reduce redundant code.
+         The classes will implement an interface.
+         The interface variable will be used to pass an
+         instance of the required class.
+     */
     public void start(){
         Scanner sc = new Scanner(System.in);
 
