@@ -1,11 +1,9 @@
 package org.example;
 
-import java.util.HashMap;
-import java.util.Scanner;
-import java.util.ServiceLoader;
+import java.util.*;
 
 public class Execute {
-    private final HashMap<Integer, CommonInterface> problemList;
+    private final Map<Integer, Problem> problemList;
 
     Execute(){
         this.problemList = getProblemList();
@@ -35,25 +33,12 @@ public class Execute {
         System.out.println("Select one : ");
 
         problemList.forEach((key, value) -> {
-            System.out.println(value.getClass().getPackageName());
+            System.out.println(key + " " + value.toString());
         });
 
 //        if(problemList.containsKey(option)){
 //            CommonInterface commonInterface = problemList.get(option);
 //            commonInterface.solve();
 //        }
-    }
-
-    // Get all the classes implementing CommonInterface
-    // 1. Add a file eg. 'org.example.CommonInterface' in resource/META-INF/services
-    // 2. Add the classes names implementing the interface in the file
-    private HashMap<Integer, CommonInterface> getProblemList(){
-        HashMap<Integer, CommonInterface> problemList = new HashMap<>();
-        ServiceLoader<CommonInterface> loader = ServiceLoader.load(CommonInterface.class);
-        int i = 0;
-        for (CommonInterface implClass : loader) {
-            problemList.put(++i, implClass);
-        }
-        return problemList;
     }
 }
