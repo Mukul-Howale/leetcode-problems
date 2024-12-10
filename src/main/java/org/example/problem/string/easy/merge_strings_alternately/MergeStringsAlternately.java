@@ -1,8 +1,8 @@
-package org.example.string.easy.merge_strings_alternately;
+package org.example.problem.string.easy.merge_strings_alternately;
 
 import org.example.CommonInterface;
 import org.example.ObjectStore;
-import org.example.string.StringInterface;
+import org.example.problem.string.StringInterface;
 
 import java.util.Scanner;
 

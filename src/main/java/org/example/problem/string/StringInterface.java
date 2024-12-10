@@ -1,4 +1,4 @@
-package org.example.string;
+package org.example.problem.string;
 
 public interface StringInterface {
 

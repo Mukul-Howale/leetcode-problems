@@ -1,8 +1,8 @@
-org.example.array.easy.two_sum.TwoSum
-org.example.array.medium.three_sum.ThreeSum
-org.example.array.easy.merge_sorted_array.MergeSortedArray
-org.example.array.medium.search_in_rotated_sorted_array.SearchInRotatedSortedArray
-org.example.array.hard.trapping_rain_water.TrappingRainWater
-org.example.array.easy.closest_number_to_zero.ClosestNumberToZero
-org.example.array.hard.candy.Candy
-org.example.string.easy.merge_strings_alternately.MergeStringsAlternately
+org.example.problem.array.easy.two_sum.TwoSum
+org.example.problem.array.medium.three_sum.ThreeSum
+org.example.problem.array.easy.merge_sorted_array.MergeSortedArray
+org.example.problem.array.medium.search_in_rotated_sorted_array.SearchInRotatedSortedArray
+org.example.problem.array.hard.trapping_rain_water.TrappingRainWater
+org.example.problem.array.easy.closest_number_to_zero.ClosestNumberToZero
+org.example.problem.array.hard.candy.Candy
+org.example.problem.string.easy.merge_strings_alternately.MergeStringsAlternately

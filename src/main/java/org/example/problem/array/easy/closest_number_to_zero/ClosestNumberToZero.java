@@ -1,7 +1,7 @@
-package org.example.array.easy.closest_number_to_zero;
+package org.example.problem.array.easy.closest_number_to_zero;
 
 import org.example.CommonInterface;
-import org.example.array.ArrayInterface;
+import org.example.problem.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.Scanner;

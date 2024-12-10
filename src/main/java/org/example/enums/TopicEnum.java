@@ -1,6 +1,6 @@
 package org.example.enums;
 
-public enum TopicConstants {
+public enum TopicEnum {
     ARRAY,
     STRING,
     ALL

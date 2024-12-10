@@ -1,7 +1,7 @@
-package org.example.array.hard.candy;
+package org.example.problem.array.hard.candy;
 
 import org.example.CommonInterface;
-import org.example.array.ArrayInterface;
+import org.example.problem.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.Scanner;

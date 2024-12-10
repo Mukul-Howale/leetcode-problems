@@ -1,7 +1,7 @@
-package org.example.array.easy.merge_sorted_array;
+package org.example.problem.array.easy.merge_sorted_array;
 
 import org.example.CommonInterface;
-import org.example.array.ArrayInterface;
+import org.example.problem.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.Arrays;

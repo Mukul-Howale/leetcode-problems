@@ -1,6 +1,6 @@
 package org.example.enums;
 
-public enum DifficultyConstants {
+public enum DifficultyEnum {
     EASY,
     MEDIUM,
     HARD,

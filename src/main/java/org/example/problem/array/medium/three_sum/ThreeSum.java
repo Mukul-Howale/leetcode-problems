@@ -1,7 +1,7 @@
-package org.example.array.medium.three_sum;
+package org.example.problem.array.medium.three_sum;
 
 import org.example.CommonInterface;
-import org.example.array.ArrayInterface;
+import org.example.problem.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.ArrayList;

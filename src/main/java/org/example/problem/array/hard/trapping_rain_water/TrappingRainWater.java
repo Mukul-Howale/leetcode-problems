@@ -1,7 +1,7 @@
-package org.example.array.hard.trapping_rain_water;
+package org.example.problem.array.hard.trapping_rain_water;
 
 import org.example.CommonInterface;
-import org.example.array.ArrayInterface;
+import org.example.problem.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.Scanner;

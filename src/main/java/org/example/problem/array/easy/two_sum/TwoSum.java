@@ -1,7 +1,7 @@
-package org.example.array.easy.two_sum;
+package org.example.problem.array.easy.two_sum;
 
 import org.example.CommonInterface;
-import org.example.array.ArrayInterface;
+import org.example.problem.array.ArrayInterface;
 import org.example.ObjectStore;
 
 import java.util.Arrays;
