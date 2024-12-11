@@ -6,3 +6,4 @@ org.example.problem.array.hard.trapping_rain_water.TrappingRainWater
 org.example.problem.array.easy.closest_number_to_zero.ClosestNumberToZero
 org.example.problem.array.hard.candy.Candy
 org.example.problem.string.easy.merge_strings_alternately.MergeStringsAlternately
+org.example.problem.string.medium.generate_parentheses.GenerateParentheses
