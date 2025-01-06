@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="190f87f5-2722-4d3b-9419-68d4aef63b68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/design/DesignInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/design/easy/design_neighbor_sum_service/DesignNeighborSumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/design/easy/design_neighbor_sum_service/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/string/medium/generate_parentheses/GenerateParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/string/medium/generate_parentheses/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +114,8 @@
       <workItem from="1733738754474" duration="7566000" />
       <workItem from="1733833355003" duration="12670000" />
       <workItem from="1733901170814" duration="2886000" />
-      <workItem from="1733912188427" duration="4246000" />
+      <workItem from="1733912188427" duration="5104000" />
+      <workItem from="1733989307216" duration="1992000" />
     </task>
     <servers />
   </component>

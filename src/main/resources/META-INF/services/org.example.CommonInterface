@@ -7,3 +7,4 @@ org.example.problem.array.easy.closest_number_to_zero.ClosestNumberToZero
 org.example.problem.array.hard.candy.Candy
 org.example.problem.string.easy.merge_strings_alternately.MergeStringsAlternately
 org.example.problem.string.medium.generate_parentheses.GenerateParentheses
+org.example.problem.array.easy.best_time_to_buy_and_sell_stock.BestTimeToBuyAndSellStock
