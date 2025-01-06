@@ -5,8 +5,9 @@ import java.util.Scanner;
 import org.example.CommonInterface;
 import org.example.ObjectStore;
 import org.example.problem.array.ArrayInterface;
+import org.example.problem.interfaces.TwoPointerInterface;
 
-public class BestTimeToBuyAndSellStock implements ArrayInterface, CommonInterface{
+public class BestTimeToBuyAndSellStock implements ArrayInterface, TwoPointerInterface, CommonInterface{
 
     public void solve(){
         Scanner sc = new Scanner(System.in);
