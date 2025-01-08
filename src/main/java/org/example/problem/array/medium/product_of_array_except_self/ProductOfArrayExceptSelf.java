@@ -1,5 +1,8 @@
 package org.example.problem.array.medium.product_of_array_except_self;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 import org.example.CommonInterface;
@@ -17,7 +20,9 @@ public class ProductOfArrayExceptSelf implements ArrayInterface, CommonInterface
         String numString = sc.nextLine();
         int[] nums = getNums(numString);
 
-        System.out.println(productOfArrayExceptSelf(nums).toString());
+        List<Integer> product = Arrays.stream(productOfArrayExceptSelf(nums)).boxed().toList();
+
+        System.out.println(product.toString());
 
         exitOrBack(new ObjectStore().getEx());
 
