@@ -1,6 +1,5 @@
 package org.example.problem.array.medium.product_of_array_except_self;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
