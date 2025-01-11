@@ -1,5 +1,7 @@
 package org.example.problem.linkedList;
 
+import java.util.Arrays;
+
 public interface LinkedListIInterface {
 
     class ListNode{
@@ -19,13 +21,23 @@ public interface LinkedListIInterface {
     }
 
     default ListNode getLinkedList(String numString){
-        // String[] stringNums = numString.split(" ");
-        // ListNode head = new ListNode();
-        // ListNode 
-        // int indx = stringNums.length-1;
-        // while(indx >= 0){
-            
-        // }
-        return new ListNode();
+        int[] nums = Arrays.stream(numString.split(" ")).mapToInt(Integer::parseInt).toArray();
+        ListNode head = new ListNode(nums[0]);
+        ListNode curr = head;
+        int index = 1;
+        while(index < nums.length){
+            curr.setNext(new ListNode(nums[index]));
+            curr = curr.getNext();
+            index++;
+        }
+        return head;
+    }
+
+    default void printLinkedList(ListNode head){
+        ListNode curr = head;
+        while(curr != null){
+            System.out.print(curr.val + " ");
+            curr = curr.getNext();
+        }
     }
 }

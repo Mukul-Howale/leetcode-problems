@@ -21,6 +21,9 @@ public class ReverseLinkedList implements CommonInterface, LinkedListIInterface{
 
         ListNode reversedList = reverseList(list);
 
+        printLinkedList(reversedList);
+        System.out.println();
+
         exitOrBack(new ObjectStore().getEx());
 
         sc.close();

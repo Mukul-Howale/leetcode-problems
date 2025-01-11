@@ -5,5 +5,6 @@ public enum TopicEnum {
     STRING,
     DESIGN,
     TWO_POINTERS,
+    LINKEDLIST,
     ALL
 }
