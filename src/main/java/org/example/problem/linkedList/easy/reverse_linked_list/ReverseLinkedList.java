@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 import org.example.CommonInterface;
 import org.example.ObjectStore;
-import org.example.problem.linkedList.LinkedListIInterface;
+import org.example.problem.linkedList.LinkedListInterface;
 
-public class ReverseLinkedList implements CommonInterface, LinkedListIInterface{
+public class ReverseLinkedList implements CommonInterface, LinkedListInterface{
 
     public void solve(){
         Scanner sc = new Scanner(System.in);

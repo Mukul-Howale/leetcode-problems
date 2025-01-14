@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import org.example.CommonInterface;
 import org.example.ObjectStore;
-import org.example.problem.linkedList.LinkedListIInterface;
+import org.example.problem.linkedList.LinkedListInterface;
 
 /**
  * TODO :-
@@ -13,7 +13,7 @@ import org.example.problem.linkedList.LinkedListIInterface;
  * 
  */
 
-public class LinkedListCycle implements CommonInterface, LinkedListIInterface{
+public class LinkedListCycle implements CommonInterface, LinkedListInterface{
 
     public void solve(){
         Scanner sc = new Scanner(System.in);

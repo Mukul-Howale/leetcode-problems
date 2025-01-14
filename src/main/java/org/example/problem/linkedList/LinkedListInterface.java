@@ -2,7 +2,7 @@ package org.example.problem.linkedList;
 
 import java.util.Arrays;
 
-public interface LinkedListIInterface {
+public interface LinkedListInterface {
 
     class ListNode{
         int val;
