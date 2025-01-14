@@ -18,6 +18,14 @@ public interface LinkedListIInterface {
         public void setNext(ListNode prev){
             next = prev;
         }
+
+        public int getVal(){
+            return val;
+        }
+
+        public void setVal(int val){
+            this.val = val;
+        }
     }
 
     default ListNode getLinkedList(String numString){
@@ -30,6 +38,26 @@ public interface LinkedListIInterface {
             curr = curr.getNext();
             index++;
         }
+        return head;
+    }
+
+    default ListNode createCycle(ListNode head, int position) {
+        if (position < 0) return head;
+
+        ListNode targetNode = head;
+        int currentIndex = 0;
+
+        while (targetNode != null && currentIndex < position) {
+            targetNode = targetNode.next;
+            currentIndex++;
+        }
+
+        ListNode tail = head;
+        while (tail.next != null) {
+            tail = tail.next;
+        }
+
+        tail.next = targetNode;
         return head;
     }
 

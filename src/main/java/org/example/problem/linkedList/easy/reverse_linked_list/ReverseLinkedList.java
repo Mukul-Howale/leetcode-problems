@@ -29,7 +29,7 @@ public class ReverseLinkedList implements CommonInterface, LinkedListIInterface{
         sc.close();
     }
 
-    public ListNode reverseList(ListNode head) {
+    private ListNode reverseList(ListNode head) {
         ListNode curr = head;
         ListNode prev = null;
         while(curr != null){
