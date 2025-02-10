@@ -6,5 +6,8 @@ public enum TopicEnum {
     DESIGN,
     TWO_POINTERS,
     LINKEDLIST,
+
+    RECURSION,
+
     ALL
 }

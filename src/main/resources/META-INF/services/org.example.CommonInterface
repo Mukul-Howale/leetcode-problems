@@ -12,3 +12,5 @@ org.example.problem.array.easy.contains_duplicate.ContainsDuplicate
 org.example.problem.array.medium.product_of_array_except_self.ProductOfArrayExceptSelf
 org.example.problem.linkedList.easy.reverse_linked_list.ReverseLinkedList
 org.example.problem.linkedList.easy.linked_list_cycle.LinkedListCycle
+org.example.problem.string.easy.clear_digits.ClearDigits
+org.example.problem.recursion.medium.combination_sum.CombinationSum

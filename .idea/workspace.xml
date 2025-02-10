@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="190f87f5-2722-4d3b-9419-68d4aef63b68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/recursion/RecursionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/recursion/medium/combination_sum/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/recursion/medium/combination_sum/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/string/easy/clear_digits/ClearDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/problem/string/easy/clear_digits/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/TopicEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/TopicEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.example.CommonInterface" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.example.CommonInterface" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +24,8 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -116,10 +123,26 @@
       <workItem from="1733901170814" duration="2886000" />
       <workItem from="1733912188427" duration="5104000" />
       <workItem from="1733989307216" duration="1992000" />
+      <workItem from="1739177290602" duration="2635000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/CommonInterface.java</url>
+          <line>6</line>
+          <properties class="org.example.CommonInterface" method="solve">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
